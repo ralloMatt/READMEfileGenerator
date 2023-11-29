@@ -12,7 +12,7 @@ const questions = [ // questions for user input
     "If you would like others to contribute to your project, how can one do this?",
     "Provide an example on how someone can test your application:",
     "What is your github username?",
-    "Waht is your email?"
+    "What is your email?"
 ];
 
 const askQuestions = () => { // use inquirer to make a prompt, so I can ask questions for user input.
@@ -71,10 +71,7 @@ const askQuestions = () => { // use inquirer to make a prompt, so I can ask ques
     ]);
 };
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+//Function to initialize app
 function init() {
     askQuestions() // prompt
         .then((answers) => { // answers is the response given after running the prompt
