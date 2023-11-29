@@ -1,6 +1,6 @@
 const inquirer = require('inquirer'); // get inquirer accesse
-
-// Later require generateMarkdown JS
+const generateMarkdown = require('./utils/generateMarkdown.js'); // js file for creating README file (markdown file)
+const fs = require('fs'); // file system module for reading/writing to files
 
 const questions = [ // questions for user input
     "What is the title of your project?", 
@@ -76,13 +76,12 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    askQuestions()
-
-        .then((answers) => {
-            console.log("Thanks for inputs.");
-        
+    askQuestions() // prompt
+        .then((answers) => { // answers is the response given after running the prompt
+            // write to a file and send it to a directory, text written to file will come from generateMarkdow(), display error is there is one else tell user we are successful
+            fs.writeFile('./fileCreated/README.md', generateMarkdown(answers), 
+            (err) => err ? console.error(err) : console.log('File created sucessfully! Look in "fileCreated" directory. Thanks.'));
         });
-
 }
 
 // Function call to initialize app
