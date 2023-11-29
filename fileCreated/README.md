@@ -1,8 +1,8 @@
-# My Project Title
+# Project Title
 
   ## Descriptoin
 
-  This is my project. This is what it does.
+  This is my project. This is what it's all about.
 
   [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
@@ -18,15 +18,15 @@
 
   ## Installation
 
-  Step 1: Do this. Step 2: Do that.
+  To install run npm install -y
 
   ## Usage
 
-  Run node index.js to run code.
+  Use this project, this way.
 
   ## Credits 
 
-  Just me, myself, and I.
+  Me, Myself, and I.
 
   ## License
 
@@ -34,13 +34,13 @@
 
   ## Contributions
 
-  No contributions necessary.
+  Contact me. My information is below.
 
   ## Tests
 
-  Test it this way.
+  After running node index.js, enter input necessary.
 
   ## Questions
 
   My github is https://github.com/ralloMatt.  
-  If you have questions please emal me at matt@email.com.  
+  If you have questions please emal me at matt@gmail.com.  
