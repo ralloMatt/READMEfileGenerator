@@ -1,8 +1,10 @@
-# My title
+# 
 
   ## Descriptoin
 
-  describe me
+  
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   
@@ -16,28 +18,29 @@
 
   ## Installation
 
-  step 1 then step 2
+  
 
   ## Usage
 
-  Use it this was
+  
 
   ## Credits 
 
-  Me myself and I
+  
 
   ## License
 
-  WTFPL
+  Covered under MIT license.
 
   ## Contributions
 
-  Do your thing baby
+  
 
   ## Tests
 
-  First run this and enter info
+  
 
   ## Questions
 
-  If you have questions contact me throught my github at MatRallo or emal me at blah @ yahoo.com.
+  My github is https://github.com/ralloMatt.  
+  If you have questions please emal me at .  
